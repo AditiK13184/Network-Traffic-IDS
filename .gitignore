@@ -1,0 +1,22 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Generated captures and datasets
+captures/*.pcap
+captures/*.pcapng
+data/*.csv
+
+# Streamlit
+.streamlit/secrets.toml
