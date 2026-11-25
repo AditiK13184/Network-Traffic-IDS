@@ -1,0 +1,5 @@
+Alert Type,Severity,Source IP,Destination IP,Destination Port,Timestamp,Evidence
+Possible Port Scan,High,192.168.1.100,192.168.1.200,Multiple,1970-01-01 00:16:40,10 different destination ports contacted within approximately 10 seconds
+Repeated Connection Attempts,Medium,192.168.1.100,192.168.1.200,45000,1970-01-01 00:17:00,8 TCP SYN packets observed within approximately 60 seconds
+Uncommon Destination Port,Low,192.168.1.100,192.168.1.200,45000,1970-01-01 00:17:00,8 TCP SYN packets observed on destination port 45000
+Uncommon Destination Port,Low,192.168.1.100,192.168.1.200,45678,1970-01-01 00:18:20,3 TCP SYN packets observed on destination port 45678

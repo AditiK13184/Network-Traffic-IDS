@@ -1,0 +1,7 @@
+Protocol,Packet Count
+TCP,13032
+TLSv1.3,3616
+TLSv1.2,473
+SSLv2,7
+HTTP,1
+HTTP/JSON,1
